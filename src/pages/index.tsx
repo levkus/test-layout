@@ -17,6 +17,7 @@ const BottomInset = styled.div`
 const Header = styled.div`
   height: 2rem;
   background: red;
+  flex-shrink: 0;
   @media (max-height: 400px) {
     position: fixed;
     top: 0;
